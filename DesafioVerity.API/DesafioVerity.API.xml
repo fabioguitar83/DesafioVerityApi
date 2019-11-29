@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioVerity.API</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioVerity.API.Controllers.AccountController.Credit(DesafioVerity.Domain.ViewModels.CreditViewModel)">
+            <summary>
+            Efetua o crédito(depósito) na conta
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioVerity.API.Controllers.AccountController.Debit(DesafioVerity.Domain.ViewModels.DebitViewModel)">
+            <summary>
+            Efetua o debito(saque) na conta
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioVerity.API.Controllers.AccountHolderController.Login(DesafioVerity.Domain.Handlers.LoginRequest)">
+            <summary>
+            Faz o login e retorna o token para acesso ao outros endpoints
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioVerity.API.Controllers.ExtractController.ExtractDetail(System.String,System.String)">
+            <summary>
+            Retorna o extrato da conta 
+            </summary>
+            <param name="startDate">Formato: dd-mm-yyyy</param>
+            <param name="endDate">Formato: dd-mm-yyyy</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
