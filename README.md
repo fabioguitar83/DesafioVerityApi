@@ -14,7 +14,7 @@ Configuração do Banco de Dados My Sql:
 - rodar os comandos abaixo no Package Manager Console substituindo {caminho_da_aplicacao} pelo caminho que o projeto foi salvo na maquina:
 
 - dotnet ef migrations add InitialCreate --project "{caminho_da_aplicacao}\DesafioVerityApi\DesafioVerity.Repository\DesafioVerity.Repository.csproj" --startup-project "{caminho_da_aplicacao}\DesafioVerityApi\DesafioVerity.API\DesafioVerity.API.csproj"
-- dotnet ef database update --project "{caminho_da_aplicacao}\DesafioVerity\DesafioVerity.Repository\DesafioVerity.Repository.csproj" --startup-project "{caminho_da_aplicacao}\DesafioVerity.API\DesafioVerity.API.csproj"
+- dotnet ef database update --project "{caminho_da_aplicacao}\DesafioVerityApi\DesafioVerity.Repository\DesafioVerity.Repository.csproj" --startup-project "{caminho_da_aplicacao}\DesafioVerityApi\DesafioVerity.API\DesafioVerity.API.csproj"
 
 Swagger:
 
